@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+}
+
+.intro-image{
+    background-image: url(../img/kohvilaud.jpeg);
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.intro-image__link a {
+    background-color: #8b4931ba;
+    color: #d2b095;
+    border: 4px solid #8b4931;
+    border-radius: 40%;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-transform: uppercase;
+text-decoration: none;
+transition: all 0.5s ease-in-out;
+
+}
+
+.intro-image__link a:hover{
+transform: scale(1.2);
+}
+
+.intro-text{
+    height: 250px;
+    background-color: #693f32;
+    color:#d2b095 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15rem;
+}
+
+.intro-text__textbox h3{
+font-size: 2rem;
+text-transform: uppercase;
+margin-bottom: 1rem;
+}
+
+.quality-image{
+    background-image: url(../img/kohvi.jpeg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+    background-attachment: fixed;
+}
+
+.quality-image__link a{
+    background-color: #718275a0;
+    color: #c26b2d;
+    border: 4px solid #718275;
+    border-radius: 40%;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-transform: uppercase;
+text-decoration: none;
+transition: all 0.5s ease-in-out;
+}
+
+.quality-image__link a:hover{
+    transform: scale(1.2);
+}
+
+.quality-text{
+    height: 250px;
+    background-color: #693f32;
+    color:#d2b095 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15rem;
+}
+.quality-text__textbox h3{
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.footer{
+    height: 250px;
+    background-color: #301b15;
+    color: #d2b095;
+    font-size: 1.5rem;
+    padding-top: 2rem;
+}
+
+.footer ul li {
+display: inline-block;
+margin: 1rem;
+}
+
+.footer ul li a{
+    color: #d2b095;
+    text-decoration: none;
+}
+
+.footer ul li:hover{
+    transform: scale(1.3);
+}
+
+.origin-image{
+background-image: url(../img/kohvioad.jpeg);
+background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+    background-attachment: fixed;
+}
+
+.origin-image__link a{
+    background-color: #98898d76;
+    color: black;
+    border: 4px solid #573833;
+    border-radius: 40%;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-transform: uppercase;
+text-decoration: none;
+transition: all 0.5s ease-in-out;
+}
+
+.origin-image__link a:hover{
+    transform: scale(1.3);
+}
+
+.origin-text{
+    height: 250px;
+    background-color: #693f32;
+    color:#d2b095 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15rem;
+}
+
+.origin-text__textbox h3{
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
